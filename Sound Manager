@@ -30,6 +30,6 @@ public class LevelManager : MonoBehaviour
 
     public void OptionsOn()
     {
-            menu.SetActive(false);
+            menu.SetActive(false);//set visible the option menu
             optionMenu.SetActive(true);
     }
